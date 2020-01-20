@@ -1,10 +1,11 @@
 <template>
   <div class="md-example-child md-example-child-steps md-example-child-steps-0">
-    <md-steps :steps="steps"></md-steps>
+    <md-steps :steps="steps" current="2"></md-steps>
   </div>
 </template>
 
-<script>import {Steps} from 'mand-mobile'
+<script>
+import {Steps} from 'mand-mobile'
 
 export default {
   name: 'steps-demo',
@@ -30,4 +31,5 @@ export default {
     }
   },
 }
-</script>
+
+</script>
